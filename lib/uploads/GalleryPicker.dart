@@ -19,7 +19,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
   final List<String> bottomItems = ["پست", "موسیقی", "داستان"];
   int activeBottomItemIndex = 0;
   late final PageController _pageController = PageController(
-    initialPage: 5000,
+    initialPage: 500,
     viewportFraction: 0.35,
   );
 
